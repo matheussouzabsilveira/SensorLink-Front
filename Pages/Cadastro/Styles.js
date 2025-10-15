@@ -6,7 +6,19 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: 40,
+    gap: 10,
+  },
+  logo: {
+    width: 150,
+    height: 150,
+    marginBottom: 10,
+  },
+  campoText: {
+    width: '70%',
+    borderColor: 'white',
+    borderWidth: 1,
+    borderRadius: 10,
+    height: 50,
   }
 });
 
