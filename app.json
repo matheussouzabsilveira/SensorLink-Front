@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "MeuApp",
+    "name": "SensorLink",
     "slug": "MeuApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.matheussouzaberto.MeuApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a1767bc8-1d35-4cb0-898b-c071033bc680"
+      }
     }
   }
 }
