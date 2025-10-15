@@ -22,6 +22,31 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 10,
     height: 50,
+  },
+  button: {
+    backgroundColor: '#fff',
+    height: 50,
+    width: '70%',
+    alignItems: 'center',
+    justifyContent: "center",
+    borderRadius: 10,
+  },
+  buttonText: {
+    color: '#1780B6',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  loginBtn: {
+    width: '70%',
+    paddingHorizontal: 10,
+    alignItems: 'flex-end',
+  },
+  loginText: {
+    color: 'blue',
+    textDecorationStyle: 'solid',
+    textDecorationColor: "blue",
+    textDecorationLine: "underline",
+    fontWeight: 'bold',
   }
 });
 
