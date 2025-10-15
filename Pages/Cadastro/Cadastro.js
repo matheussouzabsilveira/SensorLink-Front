@@ -18,6 +18,7 @@ const Cadastro = () => {
       <TextInput
       style={styles.campoText}
       placeholder="Nome"
+      placeholderTextColor={'rgba(255, 255, 255, 0.5)'}
       value={nome}
       onChangeText={setNome}>
       </TextInput>
