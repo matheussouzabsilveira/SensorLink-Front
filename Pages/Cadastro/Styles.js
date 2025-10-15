@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     alignItems: 'flex-end',
   },
   loginText: {
-    color: 'blue',
+    color: 'white',
     textDecorationStyle: 'solid',
     textDecorationColor: "blue",
     textDecorationLine: "underline",
