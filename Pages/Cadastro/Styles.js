@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   campoText: {
+    color: 'white',
     paddingHorizontal: 10,
     fontWeight: 'bold',
     fontSize: 16,
@@ -47,7 +48,11 @@ const styles = StyleSheet.create({
     textDecorationColor: "blue",
     textDecorationLine: "underline",
     fontWeight: 'bold',
-  }
+  },
+  onErro: {
+    borderColor: 'red',
+    borderWidth: 2,
+  },
 });
 
 export default styles;
